@@ -13,7 +13,6 @@ import VuiBox from "components/VuiBox";
 
 // SPOOTIFY Dashboard React example components
 import Sidenav from "examples/Sidenav";
-import Configurator from "examples/Configurator";
 
 // SPOOTIFY Dashboard React themes
 import theme from "assets/theme";
@@ -108,9 +107,6 @@ export default function App() {
       sx={{ cursor: "pointer" }}
       onClick={handleConfiguratorOpen}
     >
-      <Icon fontSize="default" color="inherit">
-        settings
-      </Icon>
     </VuiBox>
   );
 
@@ -128,11 +124,8 @@ export default function App() {
               onMouseEnter={handleOnMouseEnter}
               onMouseLeave={handleOnMouseLeave}
             />
-            <Configurator />
-            {configsButton}
           </>
         )}
-        {layout === "vr" && <Configurator />}
         <Switch>
           {getRoutes(routes)}
           <Redirect from="*" to="/dashboard" />
@@ -152,11 +145,8 @@ export default function App() {
             onMouseEnter={handleOnMouseEnter}
             onMouseLeave={handleOnMouseLeave}
           />
-          <Configurator />
-          {configsButton}
         </>
       )}
-      {layout === "vr" && <Configurator />}
       <Switch>
         {getRoutes(routes)}
         <Redirect from="*" to="/dashboard" />
