@@ -41,7 +41,6 @@
 // Vision UI Dashboard React layouts
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
-import Billing from "layouts/billing";
 import RTL from "layouts/rtl";
 import Profile from "layouts/profile";
 
@@ -71,15 +70,6 @@ const routes = [
     route: "/tables",
     icon: <IoStatsChart size="15px" color="inherit" />,
     component: Tables,
-    noCollapse: true,
-  },
-  {
-    type: "collapse",
-    name: "Billing",
-    key: "billing",
-    route: "/billing",
-    icon: <BsCreditCardFill size="15px" color="inherit" />,
-    component: Billing,
     noCollapse: true,
   },
   {

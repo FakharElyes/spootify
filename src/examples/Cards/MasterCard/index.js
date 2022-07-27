@@ -19,7 +19,6 @@
 // prop-types is a library for typechecking of props
 // @mui material components
 import Card from "@mui/material/Card";
-import billingCard from "assets/images/billing-background-card.png";
 // Vision UI Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
