@@ -42,7 +42,6 @@
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
 import RTL from "layouts/rtl";
-import Profile from "layouts/profile";
 
 // Vision UI Dashboard React icons
 import { IoRocketSharp } from "react-icons/io5";
@@ -82,15 +81,6 @@ const routes = [
     noCollapse: true,
   },
   { type: "title", title: "Account Pages", key: "account-pages" },
-  {
-    type: "collapse",
-    name: "Profile",
-    key: "profile",
-    route: "/profile",
-    icon: <BsFillPersonFill size="15px" color="inherit" />,
-    component: Profile,
-    noCollapse: true,
-  },
 ];
 
 export default routes;

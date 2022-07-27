@@ -67,7 +67,6 @@ function DefaultNavbarMobile({ open, close }) {
     >
       <VuiBox px={0.5}>
         <DefaultNavbarLink icon="donut_large" name="dashboard" route="/dashboard" />
-        <DefaultNavbarLink icon="person" name="profile" route="/profile" />
       </VuiBox>
     </Menu>
   );
