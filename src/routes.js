@@ -40,7 +40,6 @@
 
 // Vision UI Dashboard React layouts
 import Dashboard from "layouts/dashboard";
-import RTL from "layouts/rtl";
 
 // Vision UI Dashboard React icons
 import { IoRocketSharp } from "react-icons/io5";
@@ -59,15 +58,6 @@ const routes = [
     route: "/dashboard",
     icon: <IoHome size="15px" color="inherit" />,
     component: Dashboard,
-    noCollapse: true,
-  },
-  {
-    type: "collapse",
-    name: "RTL",
-    key: "rtl",
-    route: "/rtl",
-    icon: <IoBuild size="15px" color="inherit" />,
-    component: RTL,
     noCollapse: true,
   },
   { type: "title", title: "Account Pages", key: "account-pages" },
