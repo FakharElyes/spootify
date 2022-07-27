@@ -29,8 +29,6 @@ import { BsCheckCircleFill } from "react-icons/bs";
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 
-// Vision UI Dashboard Materail-UI example components
-import Table from "examples/Tables/Table";
 
 // Data
 import data from "layouts/dashboard/components/Projects/data";
@@ -102,7 +100,6 @@ function Projects() {
           },
         }}
       >
-        <Table columns={columns} rows={rows} />
       </VuiBox>
     </Card>
   );

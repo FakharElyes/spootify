@@ -40,7 +40,6 @@
 
 // Vision UI Dashboard React layouts
 import Dashboard from "layouts/dashboard";
-import Tables from "layouts/tables";
 import RTL from "layouts/rtl";
 
 // Vision UI Dashboard React icons
@@ -60,15 +59,6 @@ const routes = [
     route: "/dashboard",
     icon: <IoHome size="15px" color="inherit" />,
     component: Dashboard,
-    noCollapse: true,
-  },
-  {
-    type: "collapse",
-    name: "Tables",
-    key: "tables",
-    route: "/tables",
-    icon: <IoStatsChart size="15px" color="inherit" />,
-    component: Tables,
     noCollapse: true,
   },
   {
