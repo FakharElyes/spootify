@@ -6,7 +6,7 @@ import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import colors from "assets/theme/base/colors";

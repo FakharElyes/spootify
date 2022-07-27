@@ -13,16 +13,16 @@ import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import Icon from "@mui/material/Icon";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiInput from "components/VuiInput";
 
-// SPOOTIFY Dashboard React example components
+// spootify React example components
 import Breadcrumbs from "examples/Breadcrumbs";
 import NotificationItem from "examples/Items/NotificationItem";
 
-// Custom styles for DashboardNavbar
+// Custom styles for spootifyNavbar
 import {
   navbar,
   navbarContainer,
@@ -31,7 +31,7 @@ import {
   navbarMobileMenu,
 } from "examples/Navbars/DashboardNavbar/styles";
 
-// SPOOTIFY Dashboard React context
+// spootify React context
 import {
   useVisionUIController,
   setTransparentNavbar,

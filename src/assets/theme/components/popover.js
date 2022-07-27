@@ -1,7 +1,7 @@
-// SPOOTIFY Dashboard React helper functions
+// spootify React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
-// SPOOTIFY Dashboard React base styles
+// spootify React base styles
 import colors from "assets/theme/base/colors";
 import boxShadows from "assets/theme/base/boxShadows";
 import borders from "assets/theme/base/borders";

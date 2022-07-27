@@ -1,9 +1,9 @@
-// SPOOTIFY Dashboard React Base Styles
+// SPOOTIFY React Base Styles
 
 import colors from "assets/theme/base/colors";
 import "./typography.css";
 
-// SPOOTIFY Dashboard React Helper Functions
+// SPOOTIFY React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { dark } = colors;

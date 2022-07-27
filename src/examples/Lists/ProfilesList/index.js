@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 // @mui material components
 import Card from "@mui/material/Card";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiAvatar from "components/VuiAvatar";

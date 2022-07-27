@@ -1,9 +1,9 @@
-// SPOOTIFY Dashboard React base styles
+// spootify React base styles
 import colors from "assets/theme/base/colors";
 import borders from "assets/theme/base/borders";
 import boxShadows from "assets/theme/base/boxShadows";
 
-// SPOOTIFY Dashboard React helper functions
+// spootify React helper functions
 import linearGradient from "assets/theme/functions/linearGradient";
 import pxToRem from "assets/theme/functions/pxToRem";
 

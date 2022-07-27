@@ -1,4 +1,4 @@
-// SPOOTIFY Dashboard React Base Styles
+// SPOOTIFY React Base Styles
 import colors from "assets/theme/base/colors";
 import bgAdmin from "assets/images/body-background.png";
 

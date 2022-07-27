@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 import MenuItem from "@mui/material/MenuItem";
 import Icon from "@mui/material/Icon";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 

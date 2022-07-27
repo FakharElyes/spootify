@@ -1,4 +1,4 @@
-// SPOOTIFY Dashboard React helper functions
+// SPOOTIFY React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 export default {

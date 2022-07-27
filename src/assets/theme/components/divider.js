@@ -1,7 +1,7 @@
-// SPOOTIFY Dashboard React base styles
+// SPOOTIFY React base styles
 import colors from "assets/theme/base/colors";
 
-// SPOOTIFY Dashboard React helper functions
+// SPOOTIFY React helper functions
 import rgba from "assets/theme/functions/rgba";
 import pxToRem from "assets/theme/functions/pxToRem";
 

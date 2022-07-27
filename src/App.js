@@ -8,13 +8,13 @@ import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Icon from "@mui/material/Icon";
 
-// SPOOTIFY Dashboard React components
+// SPOOTIFY React components
 import VuiBox from "components/VuiBox";
 
-// SPOOTIFY Dashboard React example components
+// SPOOTIFY React example components
 import Sidenav from "examples/Sidenav";
 
-// SPOOTIFY Dashboard React themes
+// SPOOTIFY React themes
 import theme from "assets/theme";
 import themeRTL from "assets/theme/theme-rtl";
 
@@ -23,10 +23,10 @@ import rtlPlugin from "stylis-plugin-rtl";
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 
-// SPOOTIFY Dashboard React routes
+// SPOOTIFY React routes
 import routes from "routes";
 
-// SPOOTIFY Dashboard React contexts
+// SPOOTIFY React contexts
 import { useVisionUIController, setMiniSidenav, setOpenConfigurator } from "context";
 
 export default function App() {
@@ -128,7 +128,7 @@ export default function App() {
         )}
         <Switch>
           {getRoutes(routes)}
-          <Redirect from="*" to="/dashboard" />
+          <Redirect from="*" to="/Home" />
         </Switch>
       </ThemeProvider>
     </CacheProvider>
@@ -149,7 +149,7 @@ export default function App() {
       )}
       <Switch>
         {getRoutes(routes)}
-        <Redirect from="*" to="/dashboard" />
+        <Redirect from="*" to="/Home" />
       </Switch>
     </ThemeProvider>
   );

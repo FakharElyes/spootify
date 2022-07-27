@@ -5,10 +5,10 @@ import PropTypes from "prop-types";
 import Menu from "@mui/material/Menu";
 // import Grid from "@mui/material/Grid";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 
-// SPOOTIFY Dashboard React example components
+// spootify React example components
 import DefaultNavbarLink from "examples/Navbars/DefaultNavbar/DefaultNavbarLink";
 import palette from "assets/theme/base/colors";
 import tripleLinearGradient from "assets/theme/functions/tripleLinearGradient";
@@ -48,7 +48,7 @@ function DefaultNavbarMobile({ open, close }) {
       }}
     >
       <VuiBox px={0.5}>
-        <DefaultNavbarLink icon="donut_large" name="dashboard" route="/dashboard" />
+        <DefaultNavbarLink icon="donut_large" name="dashboard" route="/Home" />
       </VuiBox>
     </Menu>
   );

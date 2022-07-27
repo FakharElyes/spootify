@@ -3,7 +3,7 @@ import { forwardRef } from "react";
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiTypography from "components/VuiTypography";
 
 // Custom styles for VuiProgress

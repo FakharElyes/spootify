@@ -6,10 +6,10 @@ import { useLocation } from "react-router-dom";
 // prop-types is a library for typechecking of props.
 import PropTypes from "prop-types";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 
-// SPOOTIFY Dashboard React context
+// spootify React context
 import { useVisionUIController, setLayout } from "context";
 
 function DashboardLayout({ children }) {

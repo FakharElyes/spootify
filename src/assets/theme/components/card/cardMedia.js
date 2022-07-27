@@ -1,7 +1,7 @@
-// SPOOTIFY Dashboard React Base Styles
+// spootify React Base Styles
 import borders from "assets/theme/base/borders";
 
-// SPOOTIFY Dashboard React Helper Functions
+// spootify React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { borderRadius } = borders;

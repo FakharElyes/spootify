@@ -1,7 +1,7 @@
-// SPOOTIFY Dashboard React base styles
+// SPOOTIFY React base styles
 import breakpoints from "assets/theme/base/breakpoints";
 
-// SPOOTIFY Dashboard React helper functions
+// SPOOTIFY React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const {

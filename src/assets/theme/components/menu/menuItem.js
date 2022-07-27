@@ -1,9 +1,9 @@
-// SPOOTIFY Dashboard React base styles
+// spootify React base styles
 import colors from "assets/theme/base/colors";
 import borders from "assets/theme/base/borders";
 import typography from "assets/theme/base/typography";
 
-// SPOOTIFY Dashboard React helper functions
+// spootify React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { light, text, dark } = colors;

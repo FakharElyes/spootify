@@ -1,7 +1,7 @@
-// SPOOTIFY Dashboard React Base Styles
+// SPOOTIFY React Base Styles
 import colors from "assets/theme/base/colors";
 
-// SPOOTIFY Dashboard React Helper Functions
+// SPOOTIFY React Helper Functions
 import boxShadow from "assets/theme/functions/boxShadow";
 
 const { black, white, info, inputColors, tabs } = colors;

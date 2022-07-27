@@ -1,8 +1,8 @@
-// SPOOTIFY Dashboard React Base Styles
+// spootify React Base Styles
 import colors from "assets/theme/base/colors";
 import typography from "assets/theme/base/typography";
 
-// SPOOTIFY Dashboard React Helper Functions
+// spootify React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { transparent, primary, grey, text } = colors;

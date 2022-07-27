@@ -1,4 +1,4 @@
-// SPOOTIFY Dashboard React helper functions
+// spootify React helper functions
 import rgba from "assets/theme/functions/rgba";
 
 function gradientChartLine(chart, color, opacity = 0.2) {

@@ -1,7 +1,7 @@
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
 
-// SPOOTIFY Dashboard React base styles
+// spootify React base styles
 import colors from "assets/theme/base/colors";
 
 function Cube({ color, size }) {

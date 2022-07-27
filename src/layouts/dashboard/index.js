@@ -3,23 +3,23 @@ import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 import { Card, LinearProgress, Stack } from "@mui/material";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiProgress from "components/VuiProgress";
 
-// SPOOTIFY Dashboard React example components
+// spootify React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCard";
 import linearGradient from "assets/theme/functions/linearGradient";
 
-// SPOOTIFY Dashboard React base styles
+// spootify React base styles
 import typography from "assets/theme/base/typography";
 import colors from "assets/theme/base/colors";
 
-// Dashboard layout components
+// spootify layout components
 import WelcomeMark from "layouts/dashboard/components/WelcomeMark";
 import Projects from "layouts/dashboard/components/Projects";
 import OrderOverview from "layouts/dashboard/components/OrderOverview";

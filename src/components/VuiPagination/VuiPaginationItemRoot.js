@@ -1,7 +1,7 @@
 // @mui material components
 import { styled } from "@mui/material/styles";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiButton from "components/VuiButton";
 
 export default styled(VuiButton)(({ theme, ownerState }) => {

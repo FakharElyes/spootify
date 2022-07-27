@@ -1,4 +1,4 @@
-// SPOOTIFY Dashboard React base styles
+// spootify React base styles
 import colors from "assets/theme/base/colors";
 
 const { dark } = colors;

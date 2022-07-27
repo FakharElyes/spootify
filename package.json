@@ -1,17 +1,17 @@
 {
-	"name": "vision-ui-dashboard-react",
+	"name": "spootify-spootify-react",
 	"version": "3.0.0",
 	"private": true,
 	"author": "Creative Tim",
 	"license": "See license in https://www.creative-tim.com/license",
-	"description": "SPOOTIFY is a spotify clone using SPOOTIFY template created by tim",
-	"homepage": "https://demos.creative-tim.com/vision-ui-dashboard-react/#/dashboard",
+	"description": "spootify is a spotify clone using spootify template created by tim",
+	"homepage": "",
 	"bugs": {
-		"url": "https://github.com/creativetimofficial/vision-ui-dashboard-react/issues"
+		"url": ""
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/creativetimofficial/vision-ui-dashboard-react.git"
+		"url": ""
 	},
 	"dependencies": {
 		"@emotion/cache": "11.4.0",

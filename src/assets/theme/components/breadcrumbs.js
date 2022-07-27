@@ -1,4 +1,4 @@
-// SPOOTIFY Dashboard React base styles
+// SPOOTIFY React base styles
 import colors from "assets/theme/base/colors";
 import typography from "assets/theme/base/typography";
 

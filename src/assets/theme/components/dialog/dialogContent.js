@@ -1,9 +1,9 @@
-// SPOOTIFY Dashboard React base styles
+// spootify React base styles
 import typography from "assets/theme/base/typography";
 import borders from "assets/theme/base/borders";
 import colors from "assets/theme/base/colors";
 
-// SPOOTIFY Dashboard React helper functions
+// spootify React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { size } = typography;

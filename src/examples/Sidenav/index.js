@@ -12,22 +12,22 @@ import Divider from "@mui/material/Divider";
 import Link from "@mui/material/Link";
 import Icon from "@mui/material/Icon";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiButton from "components/VuiButton";
 
-// SPOOTIFY Dashboard React example components
+// spootify React example components
 import SidenavCollapse from "examples/Sidenav/SidenavCollapse";
 
 // Custom styles for the Sidenav
 import SidenavRoot from "examples/Sidenav/SidenavRoot";
 import sidenavLogoLabel from "examples/Sidenav/styles/sidenav";
 
-// SPOOTIFY Dashboard React context
+// spootify React context
 import { useVisionUIController, setMiniSidenav, setTransparentSidenav } from "context";
 
-// SPOOTIFY Dashboard React icons
+// spootify React icons
 import SimmmpleLogo from "examples/Icons/SimmmpleLogo";
 
 // function Sidenav({ color, brand, brandName, routes, ...rest }) {

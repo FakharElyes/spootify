@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 // @mui material components
 import Fade from "@mui/material/Fade";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 
 // Custom styles for the VuiAlert

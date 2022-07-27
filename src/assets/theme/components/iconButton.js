@@ -1,4 +1,4 @@
-// SPOOTIFY Dashboard React Base Styles
+// spootify React Base Styles
 import colors from "assets/theme/base/colors";
 
 const { transparent } = colors;

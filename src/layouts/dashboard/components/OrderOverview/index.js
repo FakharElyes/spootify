@@ -1,7 +1,7 @@
 // @mui material components
 import Card from "@mui/material/Card";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 
@@ -13,11 +13,11 @@ import { FaShoppingCart } from "react-icons/fa";
 import { BsCreditCardFill } from "react-icons/bs";
 import { SiDropbox } from "react-icons/si";
 
-// SPOOTIFY Dashboard React example components
+// spootify React example components
 import TimelineItem from "examples/Timeline/TimelineItem";
 import AdobeXD from "examples/Icons/AdobeXD";
 
-// SPOOTIFY Dashboard theme imports
+// spootify theme imports
 import palette from "assets/theme/base/colors";
 
 function OrdersOverview() {

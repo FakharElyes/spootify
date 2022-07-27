@@ -5,11 +5,11 @@ import PropTypes from "prop-types";
 import Card from "@mui/material/Card";
 import Divider from "@mui/material/Divider";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 
-// SPOOTIFY Dashboard React base styles
+// spootify React base styles
 import colors from "assets/theme/base/colors";
 import typography from "assets/theme/base/typography";
 

@@ -10,16 +10,16 @@ import PropTypes from "prop-types";
 import Container from "@mui/material/Container";
 import Icon from "@mui/material/Icon";
 
-// SPOOTIFY Dashboard React components
+// spootify React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiButton from "components/VuiButton";
 
-// SPOOTIFY Dashboard React example components
+// spootify React example components
 import DefaultNavbarLink from "examples/Navbars/DefaultNavbar/DefaultNavbarLink";
 import DefaultNavbarMobile from "examples/Navbars/DefaultNavbar/DefaultNavbarMobile";
 
-// SPOOTIFY Dashboard React base styles
+// spootify React base styles
 import breakpoints from "assets/theme/base/breakpoints";
 import colors from "assets/theme/base/colors";
 import borders from "assets/theme/base/borders";
@@ -102,7 +102,7 @@ function DefaultNavbar({ transparent, light, action }) {
           </VuiTypography>
         </VuiBox>
         <VuiBox color="inherit" display={{ xs: "none", lg: "flex" }} m={0} p={0}>
-          <DefaultNavbarLink icon="donut_large" name="dashboard" route="/dashboard" />
+          <DefaultNavbarLink icon="donut_large" name="dashboard" route="/Home" />
         </VuiBox>
         {action &&
           (action.type === "internal" ? (

@@ -1,4 +1,4 @@
-// SPOOTIFY Dashboard React helper functions
+// spootify React helper functions
 import hexToRgb from "assets/theme/functions/hexToRgb";
 
 function rgba(color, opacity) {
