@@ -59,8 +59,7 @@ const routes = [
     icon: <IoHome size="15px" color="inherit" />,
     component: Dashboard,
     noCollapse: true,
-  },
-  { type: "title", title: "Account Pages", key: "account-pages" },
+  }
 ];
 
 export default routes;
